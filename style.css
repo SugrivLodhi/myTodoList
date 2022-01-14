@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main-body{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(223, 241, 243);
+    border: 1px solid rgb(224, 221, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    position: absolute;
+    top: 35px;
+}
+#inputItem{
+    position:absolute;
+    top:70px;
+}
+input{
+    height: 30px;
+    padding-left: 8px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgb(200, 205, 206);
+
+}
+#btn{
+ height: 33px;
+ cursor: pointer;
+ background-color: rgb(204, 210, 216);
+ border-radius: 15px;
+ border-style: none;
+}
+.complete-btn{
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+    outline-style: none;
+    cursor: pointer;
+    border: 1px snow;
+    float:right;
+}
+.delete-btn,.edit-btn{
+    height: 25px;
+    width: 25px;
+    border-radius:50%;
+    outline-style: none;
+    cursor: pointer;
+    border: 1px snow;
+    float: right;
+}
+.todo-list{
+    list-style: none;
+    font-size: 20px;
+}
+.todo{
+    background-color: rgb(214, 205, 194);
+    width: auto;
+    height: 27px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 1px 5px 0px 7px;
+}
+.fa-times-circle,.fa-edit,.fa-check{
+     pointer-events: none;
+}
+.clear{
+    position: absolute;
+    top: auto;
+    left: 90px;
+    border-radius:15px;
+    height: 25px;
+    border-style: none;
+    background-color: rgb(209, 202, 192);
+}
