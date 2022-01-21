@@ -22,8 +22,6 @@ function addTodo(e) {
       alert('input field should not be empty');
   }
   else{
-    
-    todoList.appendChild(todoDiv)
     saveInLocalStorage(todoInput.value);
     //create compete check button
      const completeBtn = document.createElement('button');
